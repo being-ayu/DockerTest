@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is synthetic data, and why is it particularly useful when authentic real-world data is scarce, restricted, or impractical to obtain?",
+    "answer": "Synthetic data is artificially generated data that mimics the characteristics of real data without being sourced from actual observations. It is useful for addressing data scarcity, privacy concerns, data-access limitations, and logistical constraints, while supporting experimentation, testing, prototyping, and model training."
+  },
+  {
+    "question": "What factors should be considered when assessing whether a project is suitable for LLM-based synthetic data generation?",
+    "answer": "The key factors are the nature and type of data needed, the complexity of the data and its relationships or dependencies, and the strengths and limitations of LLMs. LLMs are well suited to textual data and human-like language generation but may struggle with numerical, image, or video data."
+  },
+  {
+    "question": "How does a modular prompt approach help reduce hallucination during synthetic text data generation with LLMs?",
+    "answer": "The modular prompt approach breaks a large generation task into smaller units, such as individual records or segments. This lets the model focus its attention and memory resources on a manageable context, helping it produce more coherent, accurate, and contextually relevant data and reducing hallucination caused by dataset-wide complexity."
+  },
+  {
+    "question": "What parameter adjustments can be used to improve the accuracy and coherence of LLM-generated synthetic data, and how does temperature affect hallucination?",
+    "answer": "Parameters such as temperature, top-k sampling, and repetition penalty can be adjusted to refine model behavior. Lowering temperature encourages more conservative predictions, which can reduce the likelihood of hallucination; appropriate sampling constraints can also reduce improbable or nonsensical outputs."
+  },
+  {
+    "question": "Why should automated quality assessment metrics be combined with manual inspection by domain experts when validating synthetic data?",
+    "answer": "Automated metrics provide objective quantitative measures such as fluency, coherence, grammaticality, and semantic relevance, while domain experts can identify subtle inaccuracies, discrepancies, and domain-specific nuances that automated methods may miss. Combining both provides a more comprehensive assessment of quality and suitability."
+  }
+]
